@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import * as Tone from 'tone';
+import { Sampler } from './Sampler';
 
 const App: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -43,6 +44,7 @@ const App: React.FC = () => {
       <button onClick={handlePlayPause}>
         {isPlaying ? 'Pause' : 'Play'}
       </button>
+      <Sampler samples={{'c4': 'lol'}} />
     </div>
   );
 };
