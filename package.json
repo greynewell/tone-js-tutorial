@@ -25,6 +25,10 @@
   },
   "homepage": "https://github.com/greynewell/tone-js-tutorial#readme",
   "dependencies": {
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "tone": "15.0.4"
   }
 }
