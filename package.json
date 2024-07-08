@@ -4,6 +4,8 @@
   "description": "Creating some sounds with parallel processing in Tone.js",
   "main": "index.js",
   "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,10 +27,18 @@
   },
   "homepage": "https://github.com/greynewell/tone-js-tutorial#readme",
   "dependencies": {
-    "@types/react": "18.3.3",
-    "@types/react-dom": "18.3.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "tone": "15.0.4"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "html-webpack-plugin": "5.6.0",
+    "ts-loader": "9.5.1",
+    "typescript": "5.5.3",
+    "webpack": "5.92.1",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "5.0.4"
   }
 }
