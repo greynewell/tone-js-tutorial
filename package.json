@@ -1,0 +1,30 @@
+{
+  "name": "tone-js-tutorial",
+  "version": "1.0.0",
+  "description": "Creating some sounds with parallel processing in Tone.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greynewell/tone-js-tutorial.git"
+  },
+  "keywords": [
+    "tone.js",
+    "sound",
+    "design",
+    "parallel",
+    "processing",
+    "sampler"
+  ],
+  "author": "Grey Newell <grey@opensouls.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greynewell/tone-js-tutorial/issues"
+  },
+  "homepage": "https://github.com/greynewell/tone-js-tutorial#readme",
+  "dependencies": {
+    "tone": "15.0.4"
+  }
+}
